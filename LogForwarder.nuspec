@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>LogForwarder</id>
+    <title>Log Forwarder</title>
+    <version>1.0.0</version>
+    <authors>renzo_rs</authors>	
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/cignium/LogForwarder</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Forward your logs to Splunk</description>
+    <iconUrl>https://raw.githubusercontent.com/cignium/LogForwarder/master/LogForwarderIcon.png</iconUrl>
+	  <copyright>Copyright (C) Cignium Technologies - All Rights Reserved</copyright>
+    <tags>php, log, splunk</tags>
+  </metadata>
+  <files>
+    <file src="artifacts\*.dll" target="content\job" />
+    <file src="artifacts\*.xml" target="content\job" />
+    <file src="artifacts\*.pdb" target="content\job" />
+    <file src="artifacts\*.config" target="content\job" />
+    <file src="artifacts\*.exe" target="content\job" />
+    <file src="artifacts\*.xdt" target="content" />
+    <file src="artifacts\*.cmd" target="content" />
+    <file src="artifacts\*.html" target="content" />
+  </files>
+</package>
